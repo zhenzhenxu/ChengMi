@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		6F0F954E1BFB6B3B00B810BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F954D1BFB6B3B00B810BC /* main.m */; };
 		6F0F95511BFB6B3B00B810BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F95501BFB6B3B00B810BC /* AppDelegate.m */; };
-		6F0F95541BFB6B3B00B810BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F95531BFB6B3B00B810BC /* ViewController.m */; };
-		6F0F95571BFB6B3B00B810BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F95551BFB6B3B00B810BC /* Main.storyboard */; };
 		6F0F95591BFB6B3B00B810BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F95581BFB6B3B00B810BC /* Assets.xcassets */; };
 		6F0F955C1BFB6B3B00B810BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0F955A1BFB6B3B00B810BC /* LaunchScreen.storyboard */; };
 		6F0F95671BFB6B3B00B810BC /* XZCityFoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F95661BFB6B3B00B810BC /* XZCityFoundTests.m */; };
 		6F0F95721BFB6B3B00B810BC /* XZCityFoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F95711BFB6B3B00B810BC /* XZCityFoundUITests.m */; };
+		6F217A1E1C0089FD00FAD360 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F217A1D1C0089FD00FAD360 /* Images.xcassets */; };
+		6F217A261C00979600FAD360 /* XZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A251C00979600FAD360 /* XZMainViewController.m */; };
+		6F217A291C009A1700FAD360 /* XZBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A281C009A1700FAD360 /* XZBaseVC.m */; };
+		6F217A481C00A10E00FAD360 /* XZLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A471C00A10E00FAD360 /* XZLoginVC.m */; };
+		6F217A4B1C00A12900FAD360 /* XZFoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A4A1C00A12900FAD360 /* XZFoundVC.m */; };
+		6F217A4E1C00A16500FAD360 /* XZWeiboVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A4D1C00A16500FAD360 /* XZWeiboVC.m */; };
+		6F217A511C00A17500FAD360 /* XZSetingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A501C00A17500FAD360 /* XZSetingVC.m */; };
+		6F217A541C00A19000FAD360 /* XZMesseageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A531C00A19000FAD360 /* XZMesseageVC.m */; };
+		6F217A571C00A1A500FAD360 /* XZWeixinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217A561C00A1A500FAD360 /* XZWeixinVC.m */; };
 		B9EF9F2C570FAC5D9C3BDC58 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95009B8D74A2EE24B11DA125 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -36,13 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F0F95491BFB6B3B00B810BC /* XZCityFound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZCityFound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0F95491BFB6B3B00B810BC /* 高仿诚觅.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "高仿诚觅.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0F954D1BFB6B3B00B810BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F0F954F1BFB6B3B00B810BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6F0F95501BFB6B3B00B810BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F0F95521BFB6B3B00B810BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F0F95531BFB6B3B00B810BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6F0F95561BFB6B3B00B810BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F0F954F1BFB6B3B00B810BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		6F0F95501BFB6B3B00B810BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		6F0F95581BFB6B3B00B810BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0F955B1BFB6B3B00B810BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0F955D1BFB6B3B00B810BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +56,27 @@
 		6F0F956D1BFB6B3B00B810BC /* XZCityFoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZCityFoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0F95711BFB6B3B00B810BC /* XZCityFoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZCityFoundUITests.m; sourceTree = "<group>"; };
 		6F0F95731BFB6B3B00B810BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0F95831BFB7A6000B810BC /* CityFound.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityFound.pch; sourceTree = "<group>"; };
+		6F217A151C007DE300FAD360 /* FrameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameConfig.h; sourceTree = "<group>"; };
+		6F217A171C007E0E00FAD360 /* NetWorkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkingConfig.h; sourceTree = "<group>"; };
+		6F217A181C007E2100FAD360 /* ColorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorConfig.h; sourceTree = "<group>"; };
+		6F217A1D1C0089FD00FAD360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F217A241C00979600FAD360 /* XZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMainViewController.h; sourceTree = "<group>"; };
+		6F217A251C00979600FAD360 /* XZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMainViewController.m; sourceTree = "<group>"; };
+		6F217A271C009A1700FAD360 /* XZBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZBaseVC.h; sourceTree = "<group>"; };
+		6F217A281C009A1700FAD360 /* XZBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZBaseVC.m; sourceTree = "<group>"; };
+		6F217A461C00A10E00FAD360 /* XZLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLoginVC.h; sourceTree = "<group>"; };
+		6F217A471C00A10E00FAD360 /* XZLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLoginVC.m; sourceTree = "<group>"; };
+		6F217A491C00A12900FAD360 /* XZFoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZFoundVC.h; sourceTree = "<group>"; };
+		6F217A4A1C00A12900FAD360 /* XZFoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZFoundVC.m; sourceTree = "<group>"; };
+		6F217A4C1C00A16500FAD360 /* XZWeiboVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZWeiboVC.h; sourceTree = "<group>"; };
+		6F217A4D1C00A16500FAD360 /* XZWeiboVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZWeiboVC.m; sourceTree = "<group>"; };
+		6F217A4F1C00A17500FAD360 /* XZSetingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZSetingVC.h; path = ../../Messages/Controller/XZSetingVC.h; sourceTree = "<group>"; };
+		6F217A501C00A17500FAD360 /* XZSetingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZSetingVC.m; path = ../../Messages/Controller/XZSetingVC.m; sourceTree = "<group>"; };
+		6F217A521C00A19000FAD360 /* XZMesseageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMesseageVC.h; sourceTree = "<group>"; };
+		6F217A531C00A19000FAD360 /* XZMesseageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMesseageVC.m; sourceTree = "<group>"; };
+		6F217A551C00A1A500FAD360 /* XZWeixinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZWeixinVC.h; sourceTree = "<group>"; };
+		6F217A561C00A1A500FAD360 /* XZWeixinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZWeixinVC.m; sourceTree = "<group>"; };
 		95009B8D74A2EE24B11DA125 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D074A18434B34F7C825E9B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B3CFD496934514259370FB23 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +140,7 @@
 		6F0F954A1BFB6B3B00B810BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F0F95491BFB6B3B00B810BC /* XZCityFound.app */,
+				6F0F95491BFB6B3B00B810BC /* 高仿诚觅.app */,
 				6F0F95621BFB6B3B00B810BC /* XZCityFoundTests.xctest */,
 				6F0F956D1BFB6B3B00B810BC /* XZCityFoundUITests.xctest */,
 			);
@@ -125,14 +150,14 @@
 		6F0F954B1BFB6B3B00B810BC /* XZCityFound */ = {
 			isa = PBXGroup;
 			children = (
-				6F0F954F1BFB6B3B00B810BC /* AppDelegate.h */,
-				6F0F95501BFB6B3B00B810BC /* AppDelegate.m */,
-				6F0F95521BFB6B3B00B810BC /* ViewController.h */,
-				6F0F95531BFB6B3B00B810BC /* ViewController.m */,
-				6F0F95551BFB6B3B00B810BC /* Main.storyboard */,
+				6F0F95821BFB7A3B00B810BC /* Config */,
+				6F0F957F1BFB79D100B810BC /* Classes */,
+				6F0F95801BFB79D100B810BC /* Others */,
+				6F0F95811BFB79D100B810BC /* ThirdLib */,
 				6F0F95581BFB6B3B00B810BC /* Assets.xcassets */,
 				6F0F955A1BFB6B3B00B810BC /* LaunchScreen.storyboard */,
 				6F0F955D1BFB6B3B00B810BC /* Info.plist */,
+				6F217A1D1C0089FD00FAD360 /* Images.xcassets */,
 				6F0F954C1BFB6B3B00B810BC /* Supporting Files */,
 			);
 			path = XZCityFound;
@@ -164,6 +189,320 @@
 			path = XZCityFoundUITests;
 			sourceTree = "<group>";
 		};
+		6F0F957F1BFB79D100B810BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A1F1C00964D00FAD360 /* Main */,
+				6F217A2E1C00A0CE00FAD360 /* Home */,
+				6F217A2A1C00A0CE00FAD360 /* Found */,
+				6F217A321C00A0CE00FAD360 /* Login */,
+				6F217A3E1C00A0CE00FAD360 /* Weibo */,
+				6F217A361C00A0CE00FAD360 /* Messages */,
+				6F217A3A1C00A0CE00FAD360 /* Seting */,
+				6F217A421C00A0CE00FAD360 /* Weixin */,
+				6F0F954F1BFB6B3B00B810BC /* AppDelegate.h */,
+				6F217A271C009A1700FAD360 /* XZBaseVC.h */,
+				6F217A281C009A1700FAD360 /* XZBaseVC.m */,
+				6F0F95501BFB6B3B00B810BC /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F0F95801BFB79D100B810BC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6F0F95811BFB79D100B810BC /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		6F0F95821BFB7A3B00B810BC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6F0F95831BFB7A6000B810BC /* CityFound.pch */,
+				6F217A151C007DE300FAD360 /* FrameConfig.h */,
+				6F217A171C007E0E00FAD360 /* NetWorkingConfig.h */,
+				6F217A181C007E2100FAD360 /* ColorConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6F217A1F1C00964D00FAD360 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A201C00964D00FAD360 /* Controller */,
+				6F217A211C00964D00FAD360 /* Model */,
+				6F217A221C00964D00FAD360 /* Tools */,
+				6F217A231C00964D00FAD360 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6F217A201C00964D00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A241C00979600FAD360 /* XZMainViewController.h */,
+				6F217A251C00979600FAD360 /* XZMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A211C00964D00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A221C00964D00FAD360 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6F217A231C00964D00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A2A1C00A0CE00FAD360 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A2B1C00A0CE00FAD360 /* Controller */,
+				6F217A2C1C00A0CE00FAD360 /* Model */,
+				6F217A2D1C00A0CE00FAD360 /* View */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		6F217A2B1C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A491C00A12900FAD360 /* XZFoundVC.h */,
+				6F217A4A1C00A12900FAD360 /* XZFoundVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A2C1C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A2D1C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A2E1C00A0CE00FAD360 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A2F1C00A0CE00FAD360 /* Controller */,
+				6F217A301C00A0CE00FAD360 /* Model */,
+				6F217A311C00A0CE00FAD360 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6F217A2F1C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A301C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A311C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A321C00A0CE00FAD360 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A331C00A0CE00FAD360 /* Controller */,
+				6F217A341C00A0CE00FAD360 /* Model */,
+				6F217A351C00A0CE00FAD360 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6F217A331C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A461C00A10E00FAD360 /* XZLoginVC.h */,
+				6F217A471C00A10E00FAD360 /* XZLoginVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A341C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A351C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A361C00A0CE00FAD360 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A371C00A0CE00FAD360 /* Controller */,
+				6F217A381C00A0CE00FAD360 /* Model */,
+				6F217A391C00A0CE00FAD360 /* View */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		6F217A371C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A521C00A19000FAD360 /* XZMesseageVC.h */,
+				6F217A531C00A19000FAD360 /* XZMesseageVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A381C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A391C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A3A1C00A0CE00FAD360 /* Seting */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A3B1C00A0CE00FAD360 /* Controller */,
+				6F217A3C1C00A0CE00FAD360 /* Model */,
+				6F217A3D1C00A0CE00FAD360 /* View */,
+			);
+			path = Seting;
+			sourceTree = "<group>";
+		};
+		6F217A3B1C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A4F1C00A17500FAD360 /* XZSetingVC.h */,
+				6F217A501C00A17500FAD360 /* XZSetingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A3C1C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A3D1C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A3E1C00A0CE00FAD360 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A3F1C00A0CE00FAD360 /* Controller */,
+				6F217A401C00A0CE00FAD360 /* Model */,
+				6F217A411C00A0CE00FAD360 /* View */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		6F217A3F1C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A4C1C00A16500FAD360 /* XZWeiboVC.h */,
+				6F217A4D1C00A16500FAD360 /* XZWeiboVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A401C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A411C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F217A421C00A0CE00FAD360 /* Weixin */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A431C00A0CE00FAD360 /* Controller */,
+				6F217A441C00A0CE00FAD360 /* Model */,
+				6F217A451C00A0CE00FAD360 /* View */,
+			);
+			path = Weixin;
+			sourceTree = "<group>";
+		};
+		6F217A431C00A0CE00FAD360 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F217A551C00A1A500FAD360 /* XZWeixinVC.h */,
+				6F217A561C00A1A500FAD360 /* XZWeixinVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F217A441C00A0CE00FAD360 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F217A451C00A0CE00FAD360 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,7 +523,7 @@
 			);
 			name = XZCityFound;
 			productName = XZCityFound;
-			productReference = 6F0F95491BFB6B3B00B810BC /* XZCityFound.app */;
+			productReference = 6F0F95491BFB6B3B00B810BC /* 高仿诚觅.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6F0F95611BFB6B3B00B810BC /* XZCityFoundTests */ = {
@@ -229,6 +568,7 @@
 		6F0F95411BFB6B3B00B810BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XZ;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = UME;
 				TargetAttributes = {
@@ -271,8 +611,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0F955C1BFB6B3B00B810BC /* LaunchScreen.storyboard in Resources */,
+				6F217A1E1C0089FD00FAD360 /* Images.xcassets in Resources */,
 				6F0F95591BFB6B3B00B810BC /* Assets.xcassets in Resources */,
-				6F0F95571BFB6B3B00B810BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +685,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F0F95541BFB6B3B00B810BC /* ViewController.m in Sources */,
+				6F217A541C00A19000FAD360 /* XZMesseageVC.m in Sources */,
 				6F0F95511BFB6B3B00B810BC /* AppDelegate.m in Sources */,
+				6F217A571C00A1A500FAD360 /* XZWeixinVC.m in Sources */,
+				6F217A4B1C00A12900FAD360 /* XZFoundVC.m in Sources */,
+				6F217A261C00979600FAD360 /* XZMainViewController.m in Sources */,
 				6F0F954E1BFB6B3B00B810BC /* main.m in Sources */,
+				6F217A511C00A17500FAD360 /* XZSetingVC.m in Sources */,
+				6F217A4E1C00A16500FAD360 /* XZWeiboVC.m in Sources */,
+				6F217A291C009A1700FAD360 /* XZBaseVC.m in Sources */,
+				6F217A481C00A10E00FAD360 /* XZLoginVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,14 +730,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6F0F95551BFB6B3B00B810BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F0F95561BFB6B3B00B810BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F0F955A1BFB6B3B00B810BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,10 +826,13 @@
 			baseConfigurationReference = B3CFD496934514259370FB23 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XZCityFound/Config/CityFound.pch";
 				INFOPLIST_FILE = XZCityFound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UMEBank.XZCityFound;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "高仿诚觅";
 			};
 			name = Debug;
 		};
@@ -499,10 +841,13 @@
 			baseConfigurationReference = A7D074A18434B34F7C825E9B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XZCityFound/Config/CityFound.pch";
 				INFOPLIST_FILE = XZCityFound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UMEBank.XZCityFound;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "高仿诚觅";
 			};
 			name = Release;
 		};

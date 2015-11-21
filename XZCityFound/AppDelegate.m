@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XZMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 设置statusBar的颜色是白色
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    XZMainViewController *mainVC = [[XZMainViewController alloc]init];
+    self.window.rootViewController = mainVC;
+    
     return YES;
 }
 
@@ -41,5 +47,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application{
+    // 清除内存缓存
+    [[SDWebImageManager sharedManager].imageCache clearMemory];
+    // 取消所有下载
+    [[SDWebImageManager sharedManager] cancelAll];
+    
+    
 
+
+}
 @end
