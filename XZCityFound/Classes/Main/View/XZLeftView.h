@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+Inspectable.h"
 
+//LeftView按钮类型
+typedef NS_ENUM(NSInteger, WNXleftButtonType) {
+    WNXleftButtonTypeHome = 0,
+    WNXleftButtonTypeFound,
+    WNXleftButtonTypeIcon,
+    WNXleftButtonTypeSina,
+    WNXleftButtonTypeWeiXin,
+    WNXleftButtonTypeMessage,
+    WNXleftButtonTypeSeting
+};
 @interface XZLeftView : UIView
 
 @end

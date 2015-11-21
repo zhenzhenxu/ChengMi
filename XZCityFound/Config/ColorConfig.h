@@ -9,5 +9,8 @@
 #ifndef ColorConfig_h
 #define ColorConfig_h
 
+//全局的绿色主题
+#define XZColor(r, g, b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
+#define XZGolbalGreen XZColor(33, 197, 180)
 
 #endif /* ColorConfig_h */

@@ -15,6 +15,14 @@
                     <rect key="frame" x="62" y="9" width="254" height="70"/>
                     <color key="backgroundColor" red="0.15011427920000001" green="0.64209089829999999" blue="0.69856770830000003" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="北京"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKu-Hz-aXV" customClass="XZMenuButton">
                     <rect key="frame" x="62" y="106" width="254" height="70"/>
