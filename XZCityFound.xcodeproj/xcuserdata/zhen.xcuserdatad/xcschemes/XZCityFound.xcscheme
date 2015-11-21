@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F0F95481BFB6B3B00B810BC"
-               BuildableName = "XZCityFound.app"
+               BuildableName = "&#x9ad8;&#x4eff;&#x8bda;&#x89c5;.app"
                BlueprintName = "XZCityFound"
                ReferencedContainer = "container:XZCityFound.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F0F95481BFB6B3B00B810BC"
-            BuildableName = "XZCityFound.app"
+            BuildableName = "&#x9ad8;&#x4eff;&#x8bda;&#x89c5;.app"
             BlueprintName = "XZCityFound"
             ReferencedContainer = "container:XZCityFound.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F0F95481BFB6B3B00B810BC"
-            BuildableName = "XZCityFound.app"
+            BuildableName = "&#x9ad8;&#x4eff;&#x8bda;&#x89c5;.app"
             BlueprintName = "XZCityFound"
             ReferencedContainer = "container:XZCityFound.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6F0F95481BFB6B3B00B810BC"
-            BuildableName = "XZCityFound.app"
+            BuildableName = "&#x9ad8;&#x4eff;&#x8bda;&#x89c5;.app"
             BlueprintName = "XZCityFound"
             ReferencedContainer = "container:XZCityFound.xcodeproj">
          </BuildableReference>

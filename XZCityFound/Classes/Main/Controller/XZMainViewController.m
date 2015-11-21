@@ -7,6 +7,8 @@
 //
 
 #import "XZMainViewController.h"
+#import "XZNavigationController.h"
+
 #import "XZFoundVC.h"
 #import "XZLoginVC.h"
 #import "XZWeiboVC.h"
@@ -14,6 +16,9 @@
 #import "XZWeixinVC.h"
 #import "XZMesseageVC.h"
 #import "XZHomeVC.h"
+
+#import "XZLeftView.h"
+
 
 
 
@@ -33,10 +38,12 @@
     NSArray *classNames = @[@"XZHomeVC",@"XZFoundVC",@"XZLoginVC",@"XZWeiboVC",@"XZWeixinVC",@"XZMesseageVC",@"XZSetingVC"];
     for (NSString *className in classNames) {
         UIViewController *vc = (UIViewController *)[[NSClassFromString(className) alloc]init];
-        
+        XZNavigationController *nav = [[XZNavigationController alloc]initWithRootViewController:vc];
+        [self addChildViewController:vc];
     }
     
-    
+    // 创建左边的View
+    XZLeftView *leftView = [[XZLeftView alloc]init];
 
 }
 

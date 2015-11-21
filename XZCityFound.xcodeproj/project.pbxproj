@@ -78,7 +78,6 @@
 		6F217AF11C00A7E100FAD360 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AAD1C00A7E100FAD360 /* Contents.json */; };
 		6F217AF21C00A7E100FAD360 /* sinaH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AAE1C00A7E100FAD360 /* sinaH@2x.png */; };
 		6F217AF31C00A7E100FAD360 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AB01C00A7E100FAD360 /* Contents.json */; };
-		6F217AF41C00A7E100FAD360 /* unLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AB11C00A7E100FAD360 /* unLogin.png */; };
 		6F217AF51C00A7E100FAD360 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AB31C00A7E100FAD360 /* Contents.json */; };
 		6F217AF61C00A7E100FAD360 /* unLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AB41C00A7E100FAD360 /* unLogin@2x.png */; };
 		6F217AF71C00A7E100FAD360 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F217AB61C00A7E100FAD360 /* Contents.json */; };
@@ -453,6 +452,29 @@
 		6F217E8F1C00A82000FAD360 /* recommend_kj_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F217E7A1C00A82000FAD360 /* recommend_kj_6@2x.png */; };
 		6F217E901C00A82000FAD360 /* 3-3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F217E7C1C00A82000FAD360 /* 3-3@3x.png */; };
 		6F217E911C00A82000FAD360 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F217E7D1C00A82000FAD360 /* Contents.json */; };
+		6F217E941C00AB8700FAD360 /* XZLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217E931C00AB8700FAD360 /* XZLeftView.m */; };
+		6F217E961C00AC0F00FAD360 /* XZLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F217E951C00AC0F00FAD360 /* XZLeftView.xib */; };
+		6F217E981C00AEA100FAD360 /* unLogin2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F217E971C00AEA100FAD360 /* unLogin2.png */; };
+		6F217E9B1C00B11B00FAD360 /* XZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217E9A1C00B11B00FAD360 /* XZMenuButton.m */; };
+		6F217E9E1C00B1DD00FAD360 /* XZCityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217E9D1C00B1DD00FAD360 /* XZCityButton.m */; };
+		6F217EA71C00B9F500FAD360 /* NSString+UMColorString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EA21C00B9F500FAD360 /* NSString+UMColorString.m */; };
+		6F217EA81C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EA41C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.m */; };
+		6F217EA91C00B9F500FAD360 /* UITableView+UMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EA61C00B9F500FAD360 /* UITableView+UMTableView.m */; };
+		6F217EC71C00BA0A00FAD360 /* AFNHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EAB1C00BA0A00FAD360 /* AFNHttpRequest.m */; };
+		6F217EC81C00BA0A00FAD360 /* AppStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EAD1C00BA0A00FAD360 /* AppStartView.m */; };
+		6F217EC91C00BA0A00FAD360 /* CategorySysClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EAF1C00BA0A00FAD360 /* CategorySysClass.m */; };
+		6F217ECA1C00BA0A00FAD360 /* CodeTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EB11C00BA0A00FAD360 /* CodeTableManager.m */; };
+		6F217ECB1C00BA0A00FAD360 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EB31C00BA0A00FAD360 /* NSArray+Log.m */; };
+		6F217ECC1C00BA0A00FAD360 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EB51C00BA0A00FAD360 /* NSDate+Format.m */; };
+		6F217ECD1C00BA0A00FAD360 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EB71C00BA0A00FAD360 /* NSString+Extend.m */; };
+		6F217ECE1C00BA0A00FAD360 /* NSString+PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EB91C00BA0A00FAD360 /* NSString+PinYin.m */; };
+		6F217ECF1C00BA0A00FAD360 /* SelectPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F217EBA1C00BA0A00FAD360 /* SelectPickerView.xib */; };
+		6F217ED01C00BA0A00FAD360 /* SelectTypePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EBC1C00BA0A00FAD360 /* SelectTypePickerView.m */; };
+		6F217ED11C00BA0A00FAD360 /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EBE1C00BA0A00FAD360 /* UIColor+Hexadecimal.m */; };
+		6F217ED21C00BA0A00FAD360 /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EC01C00BA0A00FAD360 /* UIHelper.m */; };
+		6F217ED31C00BA0A00FAD360 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EC21C00BA0A00FAD360 /* UIImage+Extend.m */; };
+		6F217ED41C00BA0A00FAD360 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EC41C00BA0A00FAD360 /* UIView+Extend.m */; };
+		6F217ED51C00BA0A00FAD360 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F217EC61C00BA0A00FAD360 /* Utils.m */; };
 		B9EF9F2C570FAC5D9C3BDC58 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95009B8D74A2EE24B11DA125 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -566,7 +588,6 @@
 		6F217AAD1C00A7E100FAD360 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		6F217AAE1C00A7E100FAD360 /* sinaH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sinaH@2x.png"; sourceTree = "<group>"; };
 		6F217AB01C00A7E100FAD360 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		6F217AB11C00A7E100FAD360 /* unLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unLogin.png; sourceTree = "<group>"; };
 		6F217AB31C00A7E100FAD360 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		6F217AB41C00A7E100FAD360 /* unLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unLogin@2x.png"; sourceTree = "<group>"; };
 		6F217AB61C00A7E100FAD360 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -941,6 +962,49 @@
 		6F217E7A1C00A82000FAD360 /* recommend_kj_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recommend_kj_6@2x.png"; sourceTree = "<group>"; };
 		6F217E7C1C00A82000FAD360 /* 3-3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-3@3x.png"; sourceTree = "<group>"; };
 		6F217E7D1C00A82000FAD360 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		6F217E921C00AB8700FAD360 /* XZLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLeftView.h; sourceTree = "<group>"; };
+		6F217E931C00AB8700FAD360 /* XZLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLeftView.m; sourceTree = "<group>"; };
+		6F217E951C00AC0F00FAD360 /* XZLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XZLeftView.xib; sourceTree = "<group>"; };
+		6F217E971C00AEA100FAD360 /* unLogin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unLogin2.png; sourceTree = "<group>"; };
+		6F217E991C00B11B00FAD360 /* XZMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMenuButton.h; sourceTree = "<group>"; };
+		6F217E9A1C00B11B00FAD360 /* XZMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMenuButton.m; sourceTree = "<group>"; };
+		6F217E9C1C00B1DD00FAD360 /* XZCityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCityButton.h; sourceTree = "<group>"; };
+		6F217E9D1C00B1DD00FAD360 /* XZCityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCityButton.m; sourceTree = "<group>"; };
+		6F217EA11C00B9F500FAD360 /* NSString+UMColorString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UMColorString.h"; sourceTree = "<group>"; };
+		6F217EA21C00B9F500FAD360 /* NSString+UMColorString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UMColorString.m"; sourceTree = "<group>"; };
+		6F217EA31C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+UMBarButtonItem.h"; sourceTree = "<group>"; };
+		6F217EA41C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+UMBarButtonItem.m"; sourceTree = "<group>"; };
+		6F217EA51C00B9F500FAD360 /* UITableView+UMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UMTableView.h"; sourceTree = "<group>"; };
+		6F217EA61C00B9F500FAD360 /* UITableView+UMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UMTableView.m"; sourceTree = "<group>"; };
+		6F217EAA1C00BA0A00FAD360 /* AFNHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNHttpRequest.h; sourceTree = "<group>"; };
+		6F217EAB1C00BA0A00FAD360 /* AFNHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNHttpRequest.m; sourceTree = "<group>"; };
+		6F217EAC1C00BA0A00FAD360 /* AppStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStartView.h; sourceTree = "<group>"; };
+		6F217EAD1C00BA0A00FAD360 /* AppStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStartView.m; sourceTree = "<group>"; };
+		6F217EAE1C00BA0A00FAD360 /* CategorySysClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategorySysClass.h; sourceTree = "<group>"; };
+		6F217EAF1C00BA0A00FAD360 /* CategorySysClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySysClass.m; sourceTree = "<group>"; };
+		6F217EB01C00BA0A00FAD360 /* CodeTableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTableManager.h; sourceTree = "<group>"; };
+		6F217EB11C00BA0A00FAD360 /* CodeTableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTableManager.m; sourceTree = "<group>"; };
+		6F217EB21C00BA0A00FAD360 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		6F217EB31C00BA0A00FAD360 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		6F217EB41C00BA0A00FAD360 /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
+		6F217EB51C00BA0A00FAD360 /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
+		6F217EB61C00BA0A00FAD360 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		6F217EB71C00BA0A00FAD360 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		6F217EB81C00BA0A00FAD360 /* NSString+PinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin.h"; sourceTree = "<group>"; };
+		6F217EB91C00BA0A00FAD360 /* NSString+PinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin.m"; sourceTree = "<group>"; };
+		6F217EBA1C00BA0A00FAD360 /* SelectPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPickerView.xib; sourceTree = "<group>"; };
+		6F217EBB1C00BA0A00FAD360 /* SelectTypePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTypePickerView.h; sourceTree = "<group>"; };
+		6F217EBC1C00BA0A00FAD360 /* SelectTypePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTypePickerView.m; sourceTree = "<group>"; };
+		6F217EBD1C00BA0A00FAD360 /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
+		6F217EBE1C00BA0A00FAD360 /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
+		6F217EBF1C00BA0A00FAD360 /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		6F217EC01C00BA0A00FAD360 /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		6F217EC11C00BA0A00FAD360 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		6F217EC21C00BA0A00FAD360 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		6F217EC31C00BA0A00FAD360 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		6F217EC41C00BA0A00FAD360 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		6F217EC51C00BA0A00FAD360 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		6F217EC61C00BA0A00FAD360 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		95009B8D74A2EE24B11DA125 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D074A18434B34F7C825E9B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B3CFD496934514259370FB23 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1018,6 +1082,8 @@
 				6F0F95821BFB7A3B00B810BC /* Config */,
 				6F0F957F1BFB79D100B810BC /* Classes */,
 				6F0F95801BFB79D100B810BC /* Others */,
+				6F217E9F1C00B9CD00FAD360 /* Category */,
+				6F217EA01C00B9CD00FAD360 /* Utils */,
 				6F0F95811BFB79D100B810BC /* ThirdLib */,
 				6F0F95581BFB6B3B00B810BC /* Assets.xcassets */,
 				6F0F955A1BFB6B3B00B810BC /* LaunchScreen.storyboard */,
@@ -1137,6 +1203,13 @@
 		6F217A231C00964D00FAD360 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6F217E921C00AB8700FAD360 /* XZLeftView.h */,
+				6F217E931C00AB8700FAD360 /* XZLeftView.m */,
+				6F217E951C00AC0F00FAD360 /* XZLeftView.xib */,
+				6F217E991C00B11B00FAD360 /* XZMenuButton.h */,
+				6F217E9A1C00B11B00FAD360 /* XZMenuButton.m */,
+				6F217E9C1C00B1DD00FAD360 /* XZCityButton.h */,
+				6F217E9D1C00B1DD00FAD360 /* XZCityButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1669,7 +1742,7 @@
 			isa = PBXGroup;
 			children = (
 				6F217AB01C00A7E100FAD360 /* Contents.json */,
-				6F217AB11C00A7E100FAD360 /* unLogin.png */,
+				6F217E971C00AEA100FAD360 /* unLogin2.png */,
 			);
 			path = "unLogin-1.imageset";
 			sourceTree = "<group>";
@@ -3555,6 +3628,57 @@
 			path = leftView/select_btn_back_6P.imageset;
 			sourceTree = "<group>";
 		};
+		6F217E9F1C00B9CD00FAD360 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6F217EA11C00B9F500FAD360 /* NSString+UMColorString.h */,
+				6F217EA21C00B9F500FAD360 /* NSString+UMColorString.m */,
+				6F217EA31C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.h */,
+				6F217EA41C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.m */,
+				6F217EA51C00B9F500FAD360 /* UITableView+UMTableView.h */,
+				6F217EA61C00B9F500FAD360 /* UITableView+UMTableView.m */,
+			);
+			name = Category;
+			path = ThirdLib/Category;
+			sourceTree = "<group>";
+		};
+		6F217EA01C00B9CD00FAD360 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F217EAA1C00BA0A00FAD360 /* AFNHttpRequest.h */,
+				6F217EAB1C00BA0A00FAD360 /* AFNHttpRequest.m */,
+				6F217EAC1C00BA0A00FAD360 /* AppStartView.h */,
+				6F217EAD1C00BA0A00FAD360 /* AppStartView.m */,
+				6F217EAE1C00BA0A00FAD360 /* CategorySysClass.h */,
+				6F217EAF1C00BA0A00FAD360 /* CategorySysClass.m */,
+				6F217EB01C00BA0A00FAD360 /* CodeTableManager.h */,
+				6F217EB11C00BA0A00FAD360 /* CodeTableManager.m */,
+				6F217EB21C00BA0A00FAD360 /* NSArray+Log.h */,
+				6F217EB31C00BA0A00FAD360 /* NSArray+Log.m */,
+				6F217EB41C00BA0A00FAD360 /* NSDate+Format.h */,
+				6F217EB51C00BA0A00FAD360 /* NSDate+Format.m */,
+				6F217EB61C00BA0A00FAD360 /* NSString+Extend.h */,
+				6F217EB71C00BA0A00FAD360 /* NSString+Extend.m */,
+				6F217EB81C00BA0A00FAD360 /* NSString+PinYin.h */,
+				6F217EB91C00BA0A00FAD360 /* NSString+PinYin.m */,
+				6F217EBA1C00BA0A00FAD360 /* SelectPickerView.xib */,
+				6F217EBB1C00BA0A00FAD360 /* SelectTypePickerView.h */,
+				6F217EBC1C00BA0A00FAD360 /* SelectTypePickerView.m */,
+				6F217EBD1C00BA0A00FAD360 /* UIColor+Hexadecimal.h */,
+				6F217EBE1C00BA0A00FAD360 /* UIColor+Hexadecimal.m */,
+				6F217EBF1C00BA0A00FAD360 /* UIHelper.h */,
+				6F217EC01C00BA0A00FAD360 /* UIHelper.m */,
+				6F217EC11C00BA0A00FAD360 /* UIImage+Extend.h */,
+				6F217EC21C00BA0A00FAD360 /* UIImage+Extend.m */,
+				6F217EC31C00BA0A00FAD360 /* UIView+Extend.h */,
+				6F217EC41C00BA0A00FAD360 /* UIView+Extend.m */,
+				6F217EC51C00BA0A00FAD360 /* Utils.h */,
+				6F217EC61C00BA0A00FAD360 /* Utils.m */,
+			);
+			name = Utils;
+			path = ThirdLib/Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3824,6 +3948,7 @@
 				6F217E8A1C00A82000FAD360 /* Contents.json in Resources */,
 				6F217E231C00A80000FAD360 /* loading-gray_046.png in Resources */,
 				6F217DE91C00A80000FAD360 /* loading-gray_017.png in Resources */,
+				6F217E961C00AC0F00FAD360 /* XZLeftView.xib in Resources */,
 				6F217C281C00A7F400FAD360 /* Contents.json in Resources */,
 				6F217CB31C00A7F400FAD360 /* loading_074.png in Resources */,
 				6F217ADE1C00A7E100FAD360 /* Contents.json in Resources */,
@@ -3979,6 +4104,7 @@
 				6F217CD41C00A7F400FAD360 /* Contents.json in Resources */,
 				6F217C591C00A7F400FAD360 /* loading_029.png in Resources */,
 				6F217E5B1C00A80000FAD360 /* loading-gray_074.png in Resources */,
+				6F217ECF1C00BA0A00FAD360 /* SelectPickerView.xib in Resources */,
 				6F217C1E1C00A7F400FAD360 /* Contents.json in Resources */,
 				6F217CA11C00A7F400FAD360 /* loading_065.png in Resources */,
 				6F217CBC1C00A7F400FAD360 /* Contents.json in Resources */,
@@ -4010,7 +4136,6 @@
 				6F217E541C00A80000FAD360 /* Contents.json in Resources */,
 				6F217C7D1C00A7F400FAD360 /* loading_047.png in Resources */,
 				6F217E3A1C00A80000FAD360 /* Contents.json in Resources */,
-				6F217AF41C00A7E100FAD360 /* unLogin.png in Resources */,
 				6F217AEA1C00A7E100FAD360 /* selectBtn.png in Resources */,
 				6F217C651C00A7F400FAD360 /* loading_035.png in Resources */,
 				6F217E5F1C00A80000FAD360 /* loading-gray_076.png in Resources */,
@@ -4074,6 +4199,7 @@
 				6F217C2C1C00A7F400FAD360 /* Contents.json in Resources */,
 				6F217AD61C00A7E100FAD360 /* Contents.json in Resources */,
 				6F217E451C00A80000FAD360 /* loading-gray_063.png in Resources */,
+				6F217E981C00AEA100FAD360 /* unLogin2.png in Resources */,
 				6F217E4D1C00A80000FAD360 /* loading-gray_067.png in Resources */,
 				6F217E131C00A80000FAD360 /* loading-gray_038.png in Resources */,
 				6F217E0E1C00A80000FAD360 /* Contents.json in Resources */,
@@ -4169,14 +4295,34 @@
 				6F217A541C00A19000FAD360 /* XZMesseageVC.m in Sources */,
 				6F217A5D1C00A62300FAD360 /* XZNavigationController.m in Sources */,
 				6F0F95511BFB6B3B00B810BC /* AppDelegate.m in Sources */,
+				6F217EC81C00BA0A00FAD360 /* AppStartView.m in Sources */,
+				6F217EA91C00B9F500FAD360 /* UITableView+UMTableView.m in Sources */,
+				6F217ECC1C00BA0A00FAD360 /* NSDate+Format.m in Sources */,
 				6F217A571C00A1A500FAD360 /* XZWeixinVC.m in Sources */,
+				6F217ECB1C00BA0A00FAD360 /* NSArray+Log.m in Sources */,
 				6F217A4B1C00A12900FAD360 /* XZFoundVC.m in Sources */,
+				6F217ECD1C00BA0A00FAD360 /* NSString+Extend.m in Sources */,
+				6F217E9E1C00B1DD00FAD360 /* XZCityButton.m in Sources */,
+				6F217EC71C00BA0A00FAD360 /* AFNHttpRequest.m in Sources */,
+				6F217ED41C00BA0A00FAD360 /* UIView+Extend.m in Sources */,
 				6F217A261C00979600FAD360 /* XZMainViewController.m in Sources */,
 				6F0F954E1BFB6B3B00B810BC /* main.m in Sources */,
+				6F217ED21C00BA0A00FAD360 /* UIHelper.m in Sources */,
+				6F217ECE1C00BA0A00FAD360 /* NSString+PinYin.m in Sources */,
+				6F217ED01C00BA0A00FAD360 /* SelectTypePickerView.m in Sources */,
+				6F217ED31C00BA0A00FAD360 /* UIImage+Extend.m in Sources */,
+				6F217ED51C00BA0A00FAD360 /* Utils.m in Sources */,
 				6F217A511C00A17500FAD360 /* XZSetingVC.m in Sources */,
 				6F217A4E1C00A16500FAD360 /* XZWeiboVC.m in Sources */,
+				6F217E941C00AB8700FAD360 /* XZLeftView.m in Sources */,
 				6F217A5A1C00A30B00FAD360 /* XZHomeVC.m in Sources */,
+				6F217ECA1C00BA0A00FAD360 /* CodeTableManager.m in Sources */,
 				6F217A291C009A1700FAD360 /* XZBaseVC.m in Sources */,
+				6F217EC91C00BA0A00FAD360 /* CategorySysClass.m in Sources */,
+				6F217E9B1C00B11B00FAD360 /* XZMenuButton.m in Sources */,
+				6F217EA71C00B9F500FAD360 /* NSString+UMColorString.m in Sources */,
+				6F217ED11C00BA0A00FAD360 /* UIColor+Hexadecimal.m in Sources */,
+				6F217EA81C00B9F500FAD360 /* UIBarButtonItem+UMBarButtonItem.m in Sources */,
 				6F217A481C00A10E00FAD360 /* XZLoginVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

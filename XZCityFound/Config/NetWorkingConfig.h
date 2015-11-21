@@ -9,5 +9,6 @@
 #ifndef NetWorkingConfig_h
 #define NetWorkingConfig_h
 
+#define kHttpIPAddress @""
 
 #endif /* NetWorkingConfig_h */

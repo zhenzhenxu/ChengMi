@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XZLeftView">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHc-fS-lAX" customClass="XZCityButton">
+                    <rect key="frame" x="62" y="9" width="254" height="70"/>
+                    <color key="backgroundColor" red="0.15011427920000001" green="0.64209089829999999" blue="0.69856770830000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="北京"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKu-Hz-aXV" customClass="XZMenuButton">
+                    <rect key="frame" x="62" y="106" width="254" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="home.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUJ-4B-4qJ" customClass="XZMenuButton">
+                    <rect key="frame" x="62" y="190" width="254" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="found.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPy-CQ-Odl" customClass="XZMenuButton">
+                    <rect key="frame" x="62" y="353" width="254" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="sina.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LiQ-8h-wcS" customClass="XZMenuButton">
+                    <rect key="frame" x="62" y="431" width="254" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="weixin.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akO-LT-oaU" customClass="XZMenuButton">
+                    <rect key="frame" x="62" y="515" width="254" height="70"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="message.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Um7-Cl-Qgw" customClass="XZMenuButton">
+                    <rect key="frame" x="62" y="589" width="254" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="14o-as-MFV"/>
+                        <constraint firstAttribute="width" constant="254" id="6rJ-yQ-VfO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="seting.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaN-e2-jaP" customClass="XZMenuButton">
+                    <rect key="frame" x="128" y="268" width="122" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="eRm-cR-OEq"/>
+                        <constraint firstAttribute="width" constant="122" id="w9N-Nt-Hto"/>
+                    </constraints>
+                    <state key="normal" title="未登录" image="unLogin2.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="eRm-cR-OEq"/>
+                        </mask>
+                    </variation>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Um7-Cl-Qgw" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="3UP-3j-RJv"/>
+                <constraint firstItem="akO-LT-oaU" firstAttribute="leading" secondItem="IHc-fS-lAX" secondAttribute="leading" id="6bQ-oj-yxm"/>
+                <constraint firstItem="UUJ-4B-4qJ" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="6eI-9I-JRW"/>
+                <constraint firstItem="UUJ-4B-4qJ" firstAttribute="leading" secondItem="IHc-fS-lAX" secondAttribute="leading" id="81v-ie-Gfj"/>
+                <constraint firstItem="mPy-CQ-Odl" firstAttribute="leading" secondItem="IHc-fS-lAX" secondAttribute="leading" id="9Bx-iB-8BK"/>
+                <constraint firstItem="akO-LT-oaU" firstAttribute="top" secondItem="LiQ-8h-wcS" secondAttribute="bottom" constant="14" id="A7h-Qp-Acl"/>
+                <constraint firstItem="LiQ-8h-wcS" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="E5N-al-L4A"/>
+                <constraint firstItem="fKu-Hz-aXV" firstAttribute="top" secondItem="IHc-fS-lAX" secondAttribute="bottom" constant="27" id="Fox-Mw-quh"/>
+                <constraint firstItem="LiQ-8h-wcS" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="I0h-rY-VOz"/>
+                <constraint firstItem="fKu-Hz-aXV" firstAttribute="leading" secondItem="IHc-fS-lAX" secondAttribute="leading" id="J3a-Pk-R90"/>
+                <constraint firstItem="akO-LT-oaU" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="KJB-Yz-JXv"/>
+                <constraint firstItem="mPy-CQ-Odl" firstAttribute="top" secondItem="DaN-e2-jaP" secondAttribute="bottom" constant="15" id="M3S-wG-LeR"/>
+                <constraint firstItem="fKu-Hz-aXV" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="PyN-UN-Uwz"/>
+                <constraint firstItem="Um7-Cl-Qgw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ru3-2O-L0g"/>
+                <constraint firstItem="DaN-e2-jaP" firstAttribute="centerX" secondItem="UUJ-4B-4qJ" secondAttribute="centerX" id="VM6-tQ-VDc"/>
+                <constraint firstItem="mPy-CQ-Odl" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="Wlq-4h-DCF"/>
+                <constraint firstItem="mPy-CQ-Odl" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="Wr6-Sz-6fj"/>
+                <constraint firstItem="DaN-e2-jaP" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="Wxe-Bi-sGk"/>
+                <constraint firstItem="LiQ-8h-wcS" firstAttribute="leading" secondItem="IHc-fS-lAX" secondAttribute="leading" id="Ywp-3q-a54"/>
+                <constraint firstAttribute="bottom" secondItem="Um7-Cl-Qgw" secondAttribute="bottom" constant="8" id="bPa-Z5-5Ch"/>
+                <constraint firstItem="LiQ-8h-wcS" firstAttribute="top" secondItem="mPy-CQ-Odl" secondAttribute="bottom" constant="8" id="bof-u4-Rqg"/>
+                <constraint firstItem="DaN-e2-jaP" firstAttribute="top" secondItem="UUJ-4B-4qJ" secondAttribute="bottom" constant="8" id="dCg-Bl-Hgj"/>
+                <constraint firstItem="akO-LT-oaU" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="dja-Gg-oYb"/>
+                <constraint firstItem="Um7-Cl-Qgw" firstAttribute="leading" secondItem="IHc-fS-lAX" secondAttribute="leading" id="dlg-Wc-2te"/>
+                <constraint firstItem="Um7-Cl-Qgw" firstAttribute="top" secondItem="akO-LT-oaU" secondAttribute="bottom" constant="4" id="eE3-OO-iyS"/>
+                <constraint firstItem="Um7-Cl-Qgw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="62" id="jT0-Qh-BaF"/>
+                <constraint firstItem="fKu-Hz-aXV" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="nBb-aI-sxX"/>
+                <constraint firstItem="UUJ-4B-4qJ" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="qYd-jU-DkE"/>
+                <constraint firstItem="DaN-e2-jaP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rN2-nH-0NO"/>
+                <constraint firstItem="DaN-e2-jaP" firstAttribute="height" secondItem="IHc-fS-lAX" secondAttribute="height" id="si6-k8-VC5"/>
+                <constraint firstItem="Um7-Cl-Qgw" firstAttribute="width" secondItem="IHc-fS-lAX" secondAttribute="width" id="w28-54-gYb"/>
+                <constraint firstItem="UUJ-4B-4qJ" firstAttribute="top" secondItem="fKu-Hz-aXV" secondAttribute="bottom" constant="14" id="zkE-MF-GnL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Wxe-Bi-sGk"/>
+                    <exclude reference="rN2-nH-0NO"/>
+                    <exclude reference="Ru3-2O-L0g"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="btnHeightConstraint" destination="14o-as-MFV" id="urQ-Bm-0CQ"/>
+                <outlet property="btnLeftConstraint" destination="jT0-Qh-BaF" id="Ihy-Vw-5FL"/>
+                <outlet property="btnWidthConstraint" destination="6rJ-yQ-VfO" id="y5b-Ca-Rm1"/>
+                <outlet property="cityBtn" destination="IHc-fS-lAX" id="e82-43-TaG"/>
+                <outlet property="foundBtn" destination="UUJ-4B-4qJ" id="Z8G-BY-ivo"/>
+                <outlet property="homeBtn" destination="fKu-Hz-aXV" id="sdA-dD-3z1"/>
+                <outlet property="iconBtn" destination="DaN-e2-jaP" id="MgD-h1-cRt"/>
+                <outlet property="messageBtn" destination="akO-LT-oaU" id="TrH-R6-mTq"/>
+                <outlet property="setingBtn" destination="Um7-Cl-Qgw" id="AbE-o8-dx1"/>
+                <outlet property="sinaBtn" destination="mPy-CQ-Odl" id="lYM-tf-fax"/>
+                <outlet property="weixinBtn" destination="LiQ-8h-wcS" id="1cw-6Q-C8C"/>
+            </connections>
+            <point key="canvasLocation" x="304.5" y="373.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="found.png" width="185" height="54"/>
+        <image name="home.png" width="185" height="54"/>
+        <image name="message.png" width="185" height="54"/>
+        <image name="seting.png" width="185" height="54"/>
+        <image name="sina.png" width="194" height="51"/>
+        <image name="unLogin2.png" width="68" height="68"/>
+        <image name="weixin.png" width="194" height="51"/>
+    </resources>
+</document>
